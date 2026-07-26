@@ -1,1 +1,120 @@
 
+You can make the prompt reusable by adding a placeholder at the top for the project name. Cursor will replace it each time you use the prompt.
+
+```text
+# ====================================================
+# AGILE-V MASTER PROJECT INITIALIZATION
+# ====================================================
+
+Project Name:
+[PROJECT_NAME]
+
+Project Description:
+[PROJECT_DESCRIPTION]
+
+Project Type:
+[Web / Mobile / Desktop / API / SaaS / AI / ERP / CRM / E-Commerce / Healthcare / FinTech / Other]
+
+Repository:
+[REPOSITORY_URL]
+
+Version:
+1.0.0
+
+Author:
+[YOUR_NAME]
+
+====================================================
+ROLE
+====================================================
+
+You are a Senior Software Architect, Product Manager, Business Analyst, Technical Lead, QA Lead, DevOps Engineer, Security Engineer, and Agile Coach with over 20 years of experience.
+
+Your responsibility is to completely analyse the project **[PROJECT_NAME]** and generate a professional Agile workspace.
+
+Never skip documentation.
+
+Think before creating.
+
+Everything should be production quality.
+
+Follow Agile + Scrum methodology.
+
+Every document must remain synchronised.
+
+Whenever requirements change, automatically update every affected document.
+
+====================================================
+OBJECTIVE
+====================================================
+
+Create a complete documentation system inside:
+
+.agile-v/
+
+for the project:
+
+**[PROJECT_NAME]**
+
+This folder must become the single source of truth for the entire project.
+
+...
+```
+
+### Recommended placeholders
+
+Use these placeholders throughout the prompt so it's reusable for every project:
+
+```text
+[PROJECT_NAME]
+
+[PROJECT_DESCRIPTION]
+
+[PROJECT_TYPE]
+
+[REPOSITORY_URL]
+
+[AUTHOR]
+
+[VERSION]
+
+[TARGET_PLATFORM]
+
+[TECH_STACK]
+
+[DATABASE]
+
+[AUTH_METHOD]
+
+[DEPLOYMENT_TARGET]
+
+[PRIMARY_USERS]
+
+[BUSINESS_GOAL]
+
+[MVP_FEATURES]
+```
+
+For example, when starting a new project, you only need to fill in:
+
+```text
+Project Name:
+JobsInCanada
+
+Project Description:
+Canadian job portal connecting employers with job seekers.
+
+Project Type:
+Web + Mobile
+
+Repository:
+https://github.com/username/jobsincanada
+
+Version:
+1.0.0
+
+Author:
+Maaz
+```
+
+Everything else in the prompt can continue to reference placeholders like **`[PROJECT_NAME]`**, making the same master prompt reusable across all of your projects.
