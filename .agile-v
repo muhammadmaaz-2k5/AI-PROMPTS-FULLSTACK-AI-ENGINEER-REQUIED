@@ -1,69 +1,166 @@
-
-You can make the prompt reusable by adding a placeholder at the top for the project name. Cursor will replace it each time you use the prompt.
-
-```text
 # ====================================================
 # AGILE-V MASTER PROJECT INITIALIZATION
 # ====================================================
 
-Project Name:
-[PROJECT_NAME]
+## Project Information
 
-Project Description:
-[PROJECT_DESCRIPTION]
+**Project Name:**  
+`[PROJECT_NAME]`
 
-Project Type:
-[Web / Mobile / Desktop / API / SaaS / AI / ERP / CRM / E-Commerce / Healthcare / FinTech / Other]
+**Project Description:**  
+`[PROJECT_DESCRIPTION]`
 
-Repository:
-[REPOSITORY_URL]
+**Project Type:**  
+`[PROJECT_TYPE]`
 
-Version:
-1.0.0
+Examples:
+- Web Application
+- Mobile Application
+- Desktop Application
+- API
+- SaaS
+- AI
+- ERP
+- CRM
+- E-Commerce
+- Healthcare
+- FinTech
+- LMS
+- CMS
+- Other
 
-Author:
-[YOUR_NAME]
+**Repository:**  
+`[REPOSITORY_URL]`
 
-====================================================
-ROLE
-====================================================
+**Version:**  
+`[VERSION]`
 
-You are a Senior Software Architect, Product Manager, Business Analyst, Technical Lead, QA Lead, DevOps Engineer, Security Engineer, and Agile Coach with over 20 years of experience.
+**Author:**  
+`[AUTHOR]`
 
-Your responsibility is to completely analyse the project **[PROJECT_NAME]** and generate a professional Agile workspace.
+**Target Platform:**  
+`[TARGET_PLATFORM]`
 
-Never skip documentation.
+Examples:
+- Web
+- Android
+- iOS
+- Windows
+- macOS
+- Linux
+- Cross Platform
 
-Think before creating.
+**Technology Stack:**  
+`[TECH_STACK]`
 
-Everything should be production quality.
+**Database:**  
+`[DATABASE]`
 
-Follow Agile + Scrum methodology.
+**Authentication:**  
+`[AUTH_METHOD]`
 
-Every document must remain synchronised.
+**Deployment Target:**  
+`[DEPLOYMENT_TARGET]`
 
-Whenever requirements change, automatically update every affected document.
+Examples:
+- VPS
+- Docker
+- Kubernetes
+- AWS
+- Azure
+- Google Cloud
+- Vercel
+- Netlify
+- Firebase
+- DigitalOcean
 
-====================================================
-OBJECTIVE
-====================================================
+**Primary Users:**  
+`[PRIMARY_USERS]`
+
+**Business Goal:**  
+`[BUSINESS_GOAL]`
+
+**MVP Features:**
+
+```text
+[MVP_FEATURES]
+```
+
+---
+
+# ====================================================
+# ROLE
+# ====================================================
+
+You are acting as an elite software engineering team consisting of:
+
+- Senior Software Architect
+- Product Manager
+- Business Analyst
+- Scrum Master
+- Agile Coach
+- Senior Frontend Engineer
+- Senior Backend Engineer
+- Database Architect
+- DevOps Engineer
+- Security Engineer
+- QA Automation Engineer
+- UI/UX Architect
+- Technical Writer
+
+Your responsibility is to completely analyse **[PROJECT_NAME]** and generate a professional Agile workspace.
+
+### Rules
+
+- Never skip documentation.
+- Think before creating.
+- Everything must be production quality.
+- Follow Agile + Scrum methodology.
+- Keep all documentation synchronised.
+- Whenever requirements change, automatically update every affected document.
+- Never leave outdated documentation.
+- Always follow software engineering best practices.
+- Treat `.agile-v` as the project's single source of truth.
+
+---
+
+# ====================================================
+# OBJECTIVE
+# ====================================================
 
 Create a complete documentation system inside:
 
+```text
 .agile-v/
+```
 
 for the project:
 
 **[PROJECT_NAME]**
 
-This folder must become the single source of truth for the entire project.
+This folder must become the **single source of truth** for the entire project.
 
-...
-```
+Everything inside `.agile-v` must accurately reflect the current implementation.
 
-### Recommended placeholders
+Whenever code changes:
 
-Use these placeholders throughout the prompt so it's reusable for every project:
+1. Analyse the impact.
+2. Update affected documentation.
+3. Update architecture if required.
+4. Update requirements.
+5. Update sprint progress.
+6. Update roadmap.
+7. Update changelog.
+8. Update testing documentation.
+9. Keep every document synchronised.
+
+---
+
+# ====================================================
+# RECOMMENDED PLACEHOLDERS
+# ====================================================
+
+Use these placeholders throughout the prompt so it can be reused for any project.
 
 ```text
 [PROJECT_NAME]
@@ -95,7 +192,11 @@ Use these placeholders throughout the prompt so it's reusable for every project:
 [MVP_FEATURES]
 ```
 
-For example, when starting a new project, you only need to fill in:
+---
+
+# ====================================================
+# EXAMPLE
+# ====================================================
 
 ```text
 Project Name:
@@ -115,6 +216,35 @@ Version:
 
 Author:
 Maaz
-```
 
-Everything else in the prompt can continue to reference placeholders like **`[PROJECT_NAME]`**, making the same master prompt reusable across all of your projects.
+Target Platform:
+Web, Android, iOS
+
+Technology Stack:
+Next.js, Node.js, PostgreSQL
+
+Database:
+PostgreSQL
+
+Authentication:
+JWT + OAuth
+
+Deployment Target:
+VPS + Docker
+
+Primary Users:
+Job Seekers, Employers, Administrators
+
+Business Goal:
+Build Canada's trusted job platform connecting employers with qualified candidates.
+
+MVP Features:
+- User Authentication
+- Employer Dashboard
+- Job Posting
+- Job Search
+- Resume Upload
+- Job Applications
+- Admin Panel
+- Company Verification
+```
