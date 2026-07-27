@@ -1,2 +1,3 @@
 This is Ai related site no official coding here....
-GPT models prompts comming soon
+
+- GPT models prompts comming soon
